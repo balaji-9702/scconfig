@@ -1,0 +1,24 @@
+{
+  "data": {},
+  "name": "mytestsc",
+  "type": "Generic",
+  "url": "https://aws.amazon.com/",
+  "authorization": {
+    "parameters": {
+      "username": "#{myusername}#",
+      "password": "#{mysecretpassword)#"
+    },
+    "scheme": "UsernamePassword"
+  },
+  "isShared": false,
+  "isReady": true,
+  "serviceEndpointProjectReferences": [
+    {
+      "projectReference": {
+        "id": "fae0b3e6-30a6-41ed-8bc2-3d5169fc81e4",
+        "name": "Sample_projects"
+      },
+      "name": "mytestsc"
+    }
+  ]
+}
